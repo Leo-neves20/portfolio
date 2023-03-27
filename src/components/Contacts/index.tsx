@@ -19,7 +19,7 @@ import { userData } from "@/utils/userData";
 export const Contacts = () => {
   const ref = useRef(null);
 
-  const linkedInUrl = `https://www.linkedin.com/in/${userData.linkedinUser}`;
+  const linkedInUrl = `https://www.linkedin.com/in/leonardo-neves-336167240/`;
 
   const { scrollYProgress } = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [0.1, 0.9]);
@@ -81,9 +81,9 @@ export const Contacts = () => {
                   color="grey2"
                   type="body2"
                   target="_blank"
-                  href={`mailto=${userData.emailUser}`}
+                  href={`mailto=leonardoneveswork@gmail.com`}
                   onClick={() =>
-                    (window.location.href = "mailto:nekelpatrick.com")
+                    (window.location.href = "mailto:leonardoneveswork@gmail.com")
                   }
                 >
                   Send me an email
